@@ -7,7 +7,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:description" content="This project is to build a great portfolio with awesome projects that shows my abilities as Full-Stack developer" />
     <meta property="og:image" content="https://raw.githubusercontent.com/mcervantes71/mcervantes71/develop/Screenshot.png" />
-    <meta property="og:url" content="https://mcervantes71.github.io/mcervantes71/index.html" />
+    <meta property="og:url" content="https://raw.githack.com/jacobo12montes/juanportfolio/development/index.html" />
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     
     
@@ -15,40 +15,64 @@
     <!-- <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap' rel='stylesheet'> -->
     <link rel='icon' type='image/x-icon' href='img/profile-pic.png'>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- <link rel='stylesheet' href='css/font-awesome.min.css'> -->
+    <link rel='stylesheet' href='css/all.min.css'>
+    <link rel='stylesheet' href='css/fontawesome.min.css'>
+    <link rel='stylesheet' href='css/font-awesome.min.css'>
     <link rel='stylesheet' href='css/style.css'>
+    <script src="https://kit.fontawesome.com/68c9428c25.js" crossorigin="anonymous"></script>
 
     <title>My Portfolio</title>
   </head>
 
   <body>
     <header>
-      <div class="collapse bg-dark" id="navbarHeader">
+      <div class="collapse backciverpunk bigcont" id="navbarHeader">
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">Contact me</h4>
-              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+              <h2 class="text-white">Contact me</h2>
+              <h3 class="text-white">Hi, my name is Juan I am from Manizales, Colombia. I consider myself a smart guy, smart enough to see that the future is software development</h3>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
+              <form class="mx-auto" action="mailto:jacobo12.montes@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name" class="pb-2 pt-3 text-white">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="pb-2 pt-3 text-white">Email address:</label>
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                </div>
+
+                <div class="form-group pb-2">
+                    <label for="message" class="pb-2 pt-3 text-white">Message:</label>
+                    <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-outline-light">Submit</button>
+              </form>
+
+
+              <!-- <h4 class="text-white">Contact</h4>
               <ul class="list-unstyled">
                 <li><a href="#" class="text-white">Follow on Twitter</a></li>
                 <li><a href="#" class="text-white">Like on Facebook</a></li>
                 <li><a href="#" class="text-white">Email me</a></li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="navbar navbar-dark shadow-sm">
         <div class="container">
           <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+
+            <i class="fa fa-cloud"></i>
             <strong>Contact me</strong>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-rocket"></i>
           </button>
         </div>
       </div>
